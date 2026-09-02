@@ -2,7 +2,7 @@ const DiceBox = window["dice-box-threejs"];
 
 const diceBox = new DiceBox("#dice-container", {
   assetPath: "./assets/",
-  theme_material: "none",
+  theme_material: "wood",
   theme_customColorset: {
     background: "#7B9AED", //dé
     foreground: "#0D2157", //chiffres
