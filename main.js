@@ -4,8 +4,8 @@ const diceBox = new DiceBox("#dice-container", {
   assetPath: "./assets/",
   theme_material: "wood",
   theme_customColorset: {
-    background: "#BA6630", //dé
-    foreground: "#360402", //chiffres
+    background: "#FAB45F", //dé
+    foreground: "#873E14", //chiffres
     //outline: "black",
     texture: "wood"
   },
