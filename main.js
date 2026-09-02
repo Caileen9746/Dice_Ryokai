@@ -7,7 +7,7 @@ const diceBox = new DiceBox("#dice-container", {
     background: "#9DE1FC",
     foreground: "#0D2157",
     outline: "black",
-    texture: "cloudy"
+    texture: "astral"
   },
   sounds: false,
   shadows: true,
