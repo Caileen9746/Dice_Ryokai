@@ -2,9 +2,9 @@ const DiceBox = window["dice-box-threejs"];
 
 const diceBox = new DiceBox("#dice-container", {
   assetPath: "./assets/",   // dossier PARENT de sounds/ et textures/
-  theme_texture: "water",
+  theme_texture: "Stained Glass",
   theme_material: "glass",   // astral fonctionne mieux avec "none" (voir texturelist.js)
-  theme_colorset: "water",
+  theme_colorset: "rainblow",
   sounds: true,
   volume: 80
 });
