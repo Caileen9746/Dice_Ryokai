@@ -2,9 +2,9 @@ const DiceBox = window["dice-box-threejs"];
 
 const diceBox = new DiceBox("#dice-container", {
   assetPath: "./assets/",   // dossier PARENT de sounds/ et textures/
-  theme_texture: "astral",
-  theme_material: "metal",   // astral fonctionne mieux avec "none" (voir texturelist.js)
+  //theme_texture: "astral",
   //theme_colorset: "coin_default",
+  theme_material: "metal",   // astral fonctionne mieux avec "none" (voir texturelist.js)
   theme_customColorset: {
     background: "#1a1a2e",   // couleur du dé
     foreground: "#ffd700",   // couleur des chiffres
