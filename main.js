@@ -7,7 +7,7 @@ const diceBox = new DiceBox("#dice-container", {
   theme_colorset: "rainbow",
   sounds: true,
   volume: 80,
-  sound_dieMaterial: "glass", // astral fonctionne mieux avec "none" (voir texturelist.js)
+  sound_dieMaterial: "plastic", // astral fonctionne mieux avec "none" (voir texturelist.js)
   shadow : true,
   baseScale : 400
 });
