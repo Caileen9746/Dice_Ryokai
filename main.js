@@ -5,7 +5,7 @@ const diceBox = new DiceBox("#dice-container", {
   theme_material: "wood",
   theme_customColorset: {
     background: "#FAB45F", //dé
-    foreground: "#873E14", //chiffres
+    foreground: "#3375FF", //chiffres
     //outline: "black",
     texture: "wood"
   },
