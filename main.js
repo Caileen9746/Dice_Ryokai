@@ -11,9 +11,9 @@ const diceBox = new DiceBox("#dice-container", {
     outline: "black",         // couleur du contour (optionnel, peut être "none")
     texture: "cloudy"          // texture appliquée par-dessus
   },
-  //sounds: true,
-  //volume: 80,
-  //sound_dieMaterial: "plastic", // astral fonctionne mieux avec "none" (voir texturelist.js)
+  sounds: true,
+  volume: 80,
+  sound_dieMaterial: "plastic", // astral fonctionne mieux avec "none" (voir texturelist.js)
   shadows : true,
   baseScale : 100
 });
