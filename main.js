@@ -8,7 +8,8 @@ const diceBox = new DiceBox("#dice-container", {
   sounds: true,
   volume: 80,
   sound_dieMaterial: "plastic", // astral fonctionne mieux avec "none" (voir texturelist.js)
-  shadows : true
+  shadows : true,
+  baseScale : 400
 });
 
 diceBox.initialize().then(() => {
