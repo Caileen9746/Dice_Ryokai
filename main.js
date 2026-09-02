@@ -6,8 +6,8 @@ const diceBox = new DiceBox("#dice-container", {
   //theme_colorset: "coin_default",
   theme_material: "metal",   // astral fonctionne mieux avec "none" (voir texturelist.js)
   theme_customColorset: {
-    background: "#1a1a2e",   // couleur du dé
-    foreground: "#ffd700",   // couleur des chiffres
+    background: "#9DE1FC",   // couleur du dé
+    foreground: "#0D2157",   // couleur des chiffres
     outline: "black",         // couleur du contour (optionnel, peut être "none")
     texture: "cloudy"          // texture appliquée par-dessus
   },
