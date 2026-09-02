@@ -18,7 +18,12 @@ const diceBox = new DiceBox("#dice-container", {
   baseScale : 100
 });
 
-diceBox.initialize().then(() => {
-  console.log("🎲 Initialisé !");
-  diceBox.roll("1d20");
-});
+diceBox.initialize()
+  .then(() => {
+    console.log("🎲 Initialisé !");
+    diceBox.roll("1d20");
+  })
+  .catch((err) => {
+    console.warn("Init avec erreur (son probablement), on lance quand même :", err);
+    diceBox.roll("1d20");
+  });
