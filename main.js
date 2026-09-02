@@ -9,7 +9,7 @@ const diceBox = new DiceBox("#dice-container", {
     outline: "black",
     texture: "cloudy"
   },
-  sounds: true,
+  sounds: false,
   shadows: true,
   baseScale: 100
 });
