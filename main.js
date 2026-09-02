@@ -4,7 +4,7 @@ const diceBox = new DiceBox("#dice-container", {
   assetPath: "./assets/",   // dossier PARENT de sounds/ et textures/
   theme_texture: "ice",
   theme_material: "glass",   // astral fonctionne mieux avec "none" (voir texturelist.js)
-  theme_colorset: "ice",
+  //theme_colorset: "ice",
   sounds: true,
   volume: 80,
   sound_dieMaterial: "plastic", // astral fonctionne mieux avec "none" (voir texturelist.js)
