@@ -1,3 +1,5 @@
+const DiceBox = window["dice-box-threejs"];
+
 const diceBox = new DiceBox("#dice-container", {
   assetPath: "./assets/",
   theme_material: "metal",
@@ -7,7 +9,7 @@ const diceBox = new DiceBox("#dice-container", {
     outline: "black",
     texture: "cloudy"
   },
-  sounds: false,   // ← désactivé temporairement
+  sounds: true,
   shadows: true,
   baseScale: 100
 });
