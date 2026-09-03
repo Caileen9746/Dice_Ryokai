@@ -16,5 +16,5 @@ const diceBox = new DiceBox("#dice-container", {
 
 diceBox.initialize().then(() => {
   console.log("🎲 Initialisé !");
-  diceBox.roll("1d100");
+  diceBox.roll("1d100"); // CUGZBETWGBZIKIE
 });
