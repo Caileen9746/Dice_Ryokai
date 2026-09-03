@@ -11,7 +11,7 @@ const diceBox = new DiceBox("#dice-container", {
   },
   sounds: false,
   shadows: true,
-  baseScale: 100
+  baseScale: 400
 });
 
 diceBox.initialize().then(() => {
